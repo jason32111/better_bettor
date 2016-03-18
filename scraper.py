@@ -22,3 +22,6 @@
 # All that matters is that your final data is written to an SQLite database
 # called "data.sqlite" in the current working directory which has at least a table
 # called "data".
+import scraperwiki           
+html = scraperwiki.scrape("http://www.sportspunter.com.au/sports-betting/aussie-rules/australia/afl/")
+print html
